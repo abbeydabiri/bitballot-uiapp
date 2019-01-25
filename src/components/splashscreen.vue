@@ -1,6 +1,6 @@
 <template>
 
-	<div style="all: unset;">
+	<div style="all: unset; height: 100%;position: absolute;">
 
 		<div class="abs-center">
 			<img class="animated pulse infinite" src="../assets/images/logo.png" alt="Bit Ballot Logo">
@@ -14,7 +14,6 @@
 	</div>	
 
 </template>
-
 
 <script>
 

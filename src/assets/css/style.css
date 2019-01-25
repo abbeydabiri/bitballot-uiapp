@@ -25,6 +25,13 @@ body {
 	overflow: scroll;
 }
 
+.container-alt {
+	height: calc(100% - 60px);
+	padding: 0px 20px;
+	overflow: scroll;
+	position: absolute;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -452,4 +459,8 @@ ul li input[type=checkbox]:checked ~ i:after {
   100% {
     transform: rotate(360deg);
   }
+}
+
+center {
+	text-align: left;
 }

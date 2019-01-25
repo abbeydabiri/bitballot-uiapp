@@ -3,7 +3,7 @@
 	<div style="all: unset;">
 
     <appLoader v-if="loader"></appLoader>
-	<div class="container">
+	<div class="container-alt">
 
     <p class="reg-header">Vote
         <span>
