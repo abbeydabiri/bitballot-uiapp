@@ -13,6 +13,8 @@
 
     <p class="reg-writeup">Mea ad probo incorrupte conttentiones ius tale disuptando at vis eu ariam iuducabit diceret.</p>
 
+    <input type="text" placeholder="Search...">
+
     <div v-for="elc in elc_data" class="card">
         <div class="card-header"> {{ elc.proposal }}<span class="elc-done"></span></div>    
             

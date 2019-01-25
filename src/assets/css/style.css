@@ -464,3 +464,25 @@ ul li input[type=checkbox]:checked ~ i:after {
 center {
 	text-align: left;
 }
+
+input {
+	width: 100%;
+	background: #fdfdfd;
+	border: none;
+	background: #fbfbfb80;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #13121205;
+	animation: flipdown 0.5s ease both;
+	height: 40px;
+	padding: 15px;
+	box-sizing: border-box;
+	outline: none;
+	font-family: osLight;
+	letter-spacing: 0.5px;
+	color: #000000db;
+}
+
+::placeholder {
+	color: #a0a0a0b0;
+}
