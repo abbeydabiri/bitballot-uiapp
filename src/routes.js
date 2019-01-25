@@ -1,43 +1,42 @@
 import Vue from "vue"
 import Router from "vue-router"
 
-import home from "@/components/home"
-import about from "@/components/about"
-import faq from "@/components/faq"
-import contact from "@/components/contact"
-import login from "@/components/login"
+import splashscreen from "@/components/splashscreen"
 import register from "@/components/register"
-import services from "@/components/services"
+import dashboard from "@/components/dashboard"
+import candidate from "@/components/candidate"
+import setting from "@/components/setting"
+import vote from "@/components/vote"
+import position from "@/components/position"
 
 Vue.use(Router)
 export const router =  new Router({
     mode: "hash",
-    routes: [ { path: '/', component: home, }, 
+    routes: [ { path: '/', component: splashscreen, }, 
         {
-            path: '/about',
-            component: about,
+            path: '/register',
+            component: register
         },
-        { 
-            path: '/faq', 
-            component: faq, 
+        {
+            path: '/dashboard',
+            component: dashboard
         },
-        { 
-            path: '/contact', 
-            component: contact, 
+        {
+            path: '/candidate',
+            component: candidate
         },
-        { 
-            path: '/login', 
-            component: login, 
+        {
+            path: '/setting',
+            component: setting
         },
-        { 
-            path: '/register', 
-            component: register, 
+        {
+            path: '/vote',
+            component: vote
         },
-        { 
-            path: '/services', 
-            component: services, 
-        },
+        {
+            path: '/position',
+            component: position
+        }          
 
-
-]
-    })
+    ]
+})

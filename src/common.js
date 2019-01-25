@@ -14,7 +14,7 @@ export function uploadFileCSV(event, app, field) {
   event.target.value = '';
   reader.readAsDataURL(selectedFile);
   reader.onload = function () {
-    if (selectedFile.size > 10240000) {
+    if (selectedFile.size > 10220000) {
       app.fileError = "file must be less than 10mb";
     } else {
       console.log(selectedFile.type);
