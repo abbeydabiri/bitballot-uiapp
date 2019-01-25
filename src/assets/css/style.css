@@ -29,7 +29,7 @@ body {
 	height: calc(100% - 60px);
 	padding: 0px 20px;
 	overflow: scroll;
-	position: absolute;
+	padding-bottom: 58px;
 }
 
 ol, ul {
@@ -170,6 +170,7 @@ table {
 	height: auto;
 	padding: 0px 15px;
 	box-sizing: border-box;
+	max-width: 460px;
 }
 
 .ss-action-alt button {
@@ -311,7 +312,8 @@ table {
 
 footer {
 	position: fixed;
-  width: 100%;
+	width: 100%;
+	z-index: 5;
   height: 60px;
   bottom: 0px;
   background: white;
@@ -431,9 +433,10 @@ ul li input[type=checkbox]:checked ~ i:after {
 	position: absolute;
 	background: white;
 	width: 100%;
-	height: calc(100% - 227px);
-	top: 166px;
+	height: calc(100% - 136px);
+	top: 75px;
 	z-index: 1;
+	max-width: 500px;
 }
 
 .lds-dual-ring {
@@ -485,4 +488,12 @@ input {
 
 ::placeholder {
 	color: #a0a0a0b0;
+}
+
+i {
+	cursor: pointer;
+}
+
+footer > div {
+	cursor: pointer;
 }
