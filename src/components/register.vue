@@ -30,8 +30,38 @@
 
 <script>
 
-export default {
 
+
+export default {
+	data : function () {
+		return {
+			web3js:{},
+		}
+	},
+	created() {
+		this.web3js = new Web3(web3.currentProvider);
+		console.log(this.web3js)
+
+
+		// window.addEventListener('load', function() {
+		// 	// Checking if Web3 has been injected by the browser (Mist/MetaMask)
+		// 	if (typeof web3 !== 'undefined') {
+		// 	// Use Mist/MetaMask's provider
+		// 	web3js = new Web3(web3.currentProvider);
+		// 	} else {
+		// 	// Handle the case where the user doesn't have Metamask installed
+		// 	// Probably show them a message prompting them to install Metamask
+		// 	}
+		// })
+		  
+		  
+		//   web3js = new Web3(web3.currentProvider);
+		  
+
+		// var Web3 = new web3(web3.givenProvider)
+		// console.log("web3.givenProvider >> ", web3js.givenProvider)
+		// console.log("web3.currentProvider >> ", web3js.currentProvider)
+	}
 }
 
 </script>

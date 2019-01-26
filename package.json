@@ -13,6 +13,9 @@
   "dependencies": {
     "@babel/core": "^7.1.0",
     "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0",
     "buefy": "^0.7.1",
     "cleave.js": "^1.4.4",
     "cross-env": "^5.2.0",
@@ -21,7 +24,6 @@
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
     "vue-router": "^3.0.1",
-    "web3": "^1.0.0-beta.37",
     "webpack-merge": "^4.1.4"
   },
   "devDependencies": {

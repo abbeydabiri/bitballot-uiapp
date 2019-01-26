@@ -7,8 +7,8 @@
 		</div>
 		
 		<div class="ss-action">
-			<router-link to="/register" tag="button">Register</router-link>
-			<p>An sed soleat nonumes tollit <a href="https://github.com">Github</a></p>
+			<router-link to="/register" tag="button">Register | Login</router-link>
+			<p>Visit our <a href="https://github.com">Github Page</a></p>
 		</div> 
 
 	</div>	
