@@ -21,6 +21,7 @@
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
     "vue-router": "^3.0.1",
+    "web3": "^1.0.0-beta.37",
     "webpack-merge": "^4.1.4"
   },
   "devDependencies": {

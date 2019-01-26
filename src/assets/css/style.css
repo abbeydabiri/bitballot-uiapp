@@ -73,7 +73,8 @@ table {
 	width: 27%;
 	height: 100%;
 	box-sizing: border-box;
-	margin: 0px auto
+	margin: 0px auto;
+	max-width: 500px;
 }
 
 .abs-center img {
@@ -88,6 +89,7 @@ table {
 	height: auto;
 	padding: 0px 35px;
 	box-sizing: border-box;
+	max-width: 500px;
 }
 
 .ss-action button {
@@ -477,13 +479,14 @@ input {
 	margin-bottom: 15px;
 	border: 1px solid #13121205;
 	animation: flipdown 0.5s ease both;
-	height: 40px;
+	height: 47px;
 	padding: 15px;
 	box-sizing: border-box;
 	outline: none;
 	font-family: osLight;
 	letter-spacing: 0.5px;
 	color: #000000db;
+	font-size: 15px;
 }
 
 ::placeholder {
